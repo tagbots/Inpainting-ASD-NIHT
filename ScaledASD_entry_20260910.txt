@@ -1,0 +1,4 @@
+ScaledASD m: 1000, n: 1000, p: 100000, r: 20, noise: 0, t: 0.544951, iter: 62, relerr: 2.73616e-05, relres: 9.5773e-06, reschg: 0.118632
+ScaledASD m: 100, n: 100, p: 2000, r: 50, noise: 0, t: 0.0214626, iter: 13, relerr: 0.901038, relres: 7.91703e-06, reschg: 0.564394
+ScaledASD m: 100, n: 100, p: 2000, r: 50, noise: 0, t: 0.0161115, iter: 13, relerr: 0.902635, relres: 6.93875e-06, reschg: 0.56869
+ScaledASD m: 100, n: 100, p: 2000, r: 50, noise: 0, t: 0.0477602, iter: 13, relerr: 0.89223, relres: 8.2409e-06, reschg: 0.562039
