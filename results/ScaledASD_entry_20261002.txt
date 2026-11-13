@@ -1,0 +1,1 @@
+ScaledASD m: 100, n: 100, p: 2000, r: 50, noise: 0, t: 0.0793556, iter: 13, relerr: 0.900957, relres: 7.52777e-06, reschg: 0.565431

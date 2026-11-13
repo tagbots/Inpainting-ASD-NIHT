@@ -1,0 +1,9 @@
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0200696, iter: 1, relerr: 2.69438e-15, relres: 2.69438e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0033127, iter: 1, relerr: 1.95693e-15, relres: 1.95693e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0156097, iter: 1, relerr: 2.33413e-15, relres: 2.33413e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.0687934, iter: 17, relerr: 0.950352, relres: 7.37946e-06, reschg: 0.440368
+CGIHT_Matrix m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.0535834, iter: 17, relerr: 0.953739, relres: 4.37568e-06, reschg: 0.455168
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0036833, iter: 1, relerr: 2.12178e-15, relres: 2.12178e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.001914, iter: 1, relerr: 2.22312e-15, relres: 2.22312e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.0493361, iter: 17, relerr: 0.957107, relres: 8.25183e-06, reschg: 0.434036
+CGIHT_Matrix m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.0542989, iter: 19, relerr: 0.954163, relres: 3.85649e-06, reschg: 0.424117

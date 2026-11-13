@@ -1,0 +1,17 @@
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.21233, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.15985, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.21316, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.24129, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.21035, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.21816, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.08321, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.04224, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.13902, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.26096, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.09356, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.54482, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.29522, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.14865, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.19699, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.39695, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.14917, iter: 5001, relerr: 1, relres: NaN, reschg: NaN

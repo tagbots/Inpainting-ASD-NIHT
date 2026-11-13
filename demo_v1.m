@@ -4,10 +4,12 @@ clear; close all; clc
 fprintf('--- random matrix completion ---\n')
 
 % --------- problem size -------
-m = 100; %1000
-n = 100; %1000
-p = round(.2*m*n); %CHANGE! REMOVES 80% PIXELS?
+m = 100;
+n = 100;
+delta=1; % IF I SAW EVERYTHING, DELTA=1
+p = round(delta*m*n);
 r = 50;
+delta_percent=100*delta;
 
 fprintf('problem size: m = %d, n = %d, p = %d, r = %d\n\n', m, n, p, r)
 
@@ -40,20 +42,28 @@ alg_list{2} = 'CGIHT_Matrix';
 alg_list{3} = 'ASD';
 alg_list{4} = 'ScaledASD';
 
-img_list = cell(3,1);
+img_list = cell(12,1);
 img_list{1} = 'boat.png';
 img_list{2} = 'barb.png';
 img_list{3} = 'lena.png';
+img_list{4} = 'aerial.tiff';
+img_list{5} = 'baboon.tiff';
+img_list{6} = 'bubbles.tiff';
+img_list{7} = 'couple.tiff';
+img_list{8} = 'GGB2.jpg';
+img_list{9} = 'oakland.tiff';
+img_list{10} = 'peppers.tiff';
+img_list{11} = 'straw.tiff';
+img_list{12} = 'airplane.tiff';
 
 % fprintf('1. NIHT, 2. CGIHT, 3. ASD, 4. ScaledASD (suggested:))\n')
 % alg = input('Select an algorithm number from 1 to 4: ');
 
-fprintf('1. boat, 2. barb, 3. lena\n')
-img = input('Select an image number from 1 to 3: ');
+fprintf('1. boat, 2. barb, 3. lena, 4. aerial, 5. baboon, 6. bubbles, 7. couple, 8. GGB, 9. oakland, 10. peppers, 11. straw, 12. airplane \n')
+img = input('Select an image number from 1 to 12: ');
 
 snr = input('Enter desired SNR in dB (example: 5, 10, 20, 30): ');
 
-% the 
 
 fprintf('\n')
 
@@ -61,7 +71,7 @@ image_results = cell(4, 1);
 
 for k=1:4
     rng(1)
-  [image_results{k}, M, A] = Random_noise_051226(alg_list{k},img_list{img},snr);
+    [image_results{k}, M, M_noisy, noisy_psnr] = matrix_noise_v1(alg_list{k},img_list{img}, snr, delta);
 end
 
 figure;
@@ -69,10 +79,10 @@ subplot(2, 3, 1)
 imshow(M, [])
 title('Original')
 
-noisy_psnr = psnr(A.*M, M);
+%noisy_psnr = psnr(M_noisy(Omega), M, 1);
 
 subplot(2, 3, 2)
-imshow(A.*M, [])
+imshow(M_noisy, [])
 title({['Noisy, SNR= ', num2str(snr), ' dB'], ['PSNR = ', num2str(noisy_psnr, '%.2f'), ' dB']})
 
 for k=1:4
@@ -81,8 +91,6 @@ for k=1:4
     imshow(image_results{k}, [])
     title({alg_list{k},['PSNR = ', num2str(recovered_psnr, '%.2f'), ' dB']}, 'Interpreter', 'none')
 end
-% delta = 0.5;
-% delta_percent = (100*delta);
 
 fig_filename = ['tiles_snr', num2str(snr),'_observed', num2str(delta_percent), 'percent_rank', num2str(r), '.png'];
 

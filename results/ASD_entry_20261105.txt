@@ -1,0 +1,5 @@
+ASD m: 100, n: 100, p: 0, r: 50, noise: 0, t: 0.0086558, iter: 2, relerr: NaN, relres: NaN, reschg: NaN
+ASD m: 100, n: 100, p: 0, r: 50, noise: 0, t: 0.0021858, iter: 2, relerr: NaN, relres: NaN, reschg: NaN
+ASD m: 100, n: 100, p: 0, r: 50, noise: 0, t: 0.0035676, iter: 2, relerr: NaN, relres: NaN, reschg: NaN
+ASD m: 100, n: 100, p: 0, r: 50, noise: 0, t: 0.0081568, iter: 2, relerr: NaN, relres: NaN, reschg: NaN
+ASD m: 100, n: 100, p: 0, r: 50, noise: 0, t: 0.002834, iter: 2, relerr: NaN, relres: NaN, reschg: NaN

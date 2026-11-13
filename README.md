@@ -11,7 +11,7 @@ ASD and ScaledASD
 Low rank matrix completion by alternating steepest descent methods (J. Tanner and K. Wei), submitted.
 
 -------------------------------------------------------------------------------------------------------------------------------
-Copyright 2013/2014 J. Blanchard, J. Tanner and K. Wei. If there are any problems, feel free to email me at wei@maths.ox.ac.uk.
+Copyright 2013/2014 J. Blanchard, J. Tanner and K. Wei. If there are any problems, feel free to email me at satellite00love@gmail.com.
 -------------------------------------------------------------------------------------------------------------------------------
 
 Installation: 

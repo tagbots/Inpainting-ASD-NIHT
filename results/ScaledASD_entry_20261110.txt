@@ -1,0 +1,9 @@
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0086817, iter: 1, relerr: 1.92616e-15, relres: 1.92505e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0027638, iter: 1, relerr: 2.45732e-15, relres: 2.45631e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0082102, iter: 1, relerr: 2.29917e-15, relres: 2.30251e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.0484488, iter: 13, relerr: 0.951226, relres: 5.69212e-06, reschg: 0.574079
+ScaledASD m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.0160583, iter: 12, relerr: 0.952618, relres: 9.63776e-06, reschg: 0.587983
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0027905, iter: 1, relerr: 2.52655e-15, relres: 2.52712e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0013689, iter: 1, relerr: 1.99317e-15, relres: 1.99485e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.0093681, iter: 13, relerr: 0.956012, relres: 7.71327e-06, reschg: 0.564719
+ScaledASD m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.0107823, iter: 16, relerr: 0.953205, relres: 8.67586e-06, reschg: 0.477779

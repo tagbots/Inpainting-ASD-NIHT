@@ -1,0 +1,17 @@
+ASD m: 100, n: 100, p: 0, r: 50, noise: 0, t: 0.0068604, iter: 2, relerr: NaN, relres: NaN, reschg: NaN
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0045176, iter: 1, relerr: 1.94253e-15, relres: 1.94555e-15, reschg: 1
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0022779, iter: 1, relerr: 2.2152e-15, relres: 2.21497e-15, reschg: 1
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0036202, iter: 1, relerr: 2.44394e-15, relres: 2.44471e-15, reschg: 1
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0066929, iter: 1, relerr: 2.02768e-15, relres: 2.02947e-15, reschg: 1
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0029399, iter: 1, relerr: 2.19054e-15, relres: 2.18952e-15, reschg: 1
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0016642, iter: 1, relerr: 2.09012e-15, relres: 2.09033e-15, reschg: 1
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0035402, iter: 1, relerr: 2.40402e-15, relres: 2.41203e-15, reschg: 1
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0047101, iter: 1, relerr: 2.39035e-15, relres: 2.39094e-15, reschg: 1
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.003656, iter: 1, relerr: 2.31449e-15, relres: 2.31489e-15, reschg: 1
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0024162, iter: 1, relerr: 2.52114e-15, relres: 2.52498e-15, reschg: 1
+ASD m: 100, n: 100, p: 3500, r: 50, noise: 0, t: 0.0220463, iter: 28, relerr: 0.817014, relres: 8.94415e-06, reschg: 0.260962
+ASD m: 100, n: 100, p: 3500, r: 50, noise: 0, t: 0.0205933, iter: 33, relerr: 0.80814, relres: 8.12894e-06, reschg: 0.216115
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.001684, iter: 1, relerr: 2.1307e-15, relres: 2.12984e-15, reschg: 1
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0013796, iter: 1, relerr: 2.07381e-15, relres: 2.07686e-15, reschg: 1
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0014413, iter: 1, relerr: 2.07779e-15, relres: 2.07918e-15, reschg: 1
+ASD m: 100, n: 100, p: 500, r: 50, noise: 0, t: 0.0300083, iter: 54, relerr: 0.975243, relres: 8.74935e-06, reschg: 0.140955

@@ -1,0 +1,9 @@
+NIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0155848, iter: 1, relerr: 2.14904e-15, relres: 2.14904e-15, reschg: 1
+NIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0066905, iter: 1, relerr: 2.13335e-15, relres: 2.13335e-15, reschg: 1
+NIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.908441, iter: 1, relerr: 2.49731e-15, relres: 2.49731e-15, reschg: 1
+NIHT_Matrix m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.0932984, iter: 20, relerr: 0.952014, relres: 6.82473e-06, reschg: 0.358613
+NIHT_Matrix m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.219697, iter: 17, relerr: 0.947596, relres: 7.57618e-06, reschg: 0.442599
+NIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0018565, iter: 1, relerr: 2.21065e-15, relres: 2.21065e-15, reschg: 1
+NIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0007312, iter: 1, relerr: 2.56243e-15, relres: 2.56243e-15, reschg: 1
+NIHT_Matrix m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.049875, iter: 19, relerr: 0.948419, relres: 8.02189e-06, reschg: 0.363115
+NIHT_Matrix m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.060815, iter: 21, relerr: 0.95178, relres: 8.3028e-06, reschg: 0.29297

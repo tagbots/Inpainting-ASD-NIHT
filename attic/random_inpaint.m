@@ -26,7 +26,7 @@ figure(1)
 imshow(A.*M)
 drawnow
 
-fprintf('begin reovery? Press Enter\n\n')
+fprintf('begin recovery? Press Enter\n\n')
 pause
 
 % convert string to function handle

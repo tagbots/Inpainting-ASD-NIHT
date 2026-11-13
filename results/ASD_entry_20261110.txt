@@ -1,0 +1,9 @@
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.007338, iter: 1, relerr: 3.37753e-15, relres: 3.37751e-15, reschg: 1
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.004377, iter: 1, relerr: 1.99799e-15, relres: 1.99788e-15, reschg: 1
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0085501, iter: 1, relerr: 2.08617e-15, relres: 2.08909e-15, reschg: 1
+ASD m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.0159092, iter: 17, relerr: 0.952223, relres: 8.22948e-06, reschg: 0.441968
+ASD m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.0086165, iter: 20, relerr: 0.952581, relres: 7.96906e-06, reschg: 0.358168
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0035678, iter: 1, relerr: 2.58876e-15, relres: 2.58977e-15, reschg: 1
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.00172, iter: 1, relerr: 2.60123e-15, relres: 2.60229e-15, reschg: 1
+ASD m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.0059016, iter: 20, relerr: 0.954259, relres: 9.58565e-06, reschg: 0.351061
+ASD m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.0044508, iter: 18, relerr: 0.955463, relres: 7.13626e-06, reschg: 0.410189

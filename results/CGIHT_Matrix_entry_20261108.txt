@@ -1,0 +1,17 @@
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 5.39639, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.004431, iter: 1, relerr: 2.07032e-15, relres: 2.07032e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.003163, iter: 1, relerr: 2.1865e-15, relres: 2.1865e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0034772, iter: 1, relerr: 2.04059e-15, relres: 2.04059e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.008416, iter: 1, relerr: 2.1861e-15, relres: 2.1861e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0027193, iter: 1, relerr: 2.22524e-15, relres: 2.22524e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0021998, iter: 1, relerr: 3.30078e-15, relres: 3.30078e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0037718, iter: 1, relerr: 2.10803e-15, relres: 2.10803e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0021113, iter: 1, relerr: 2.33644e-15, relres: 2.33644e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0040424, iter: 1, relerr: 2.52381e-15, relres: 2.52381e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0027766, iter: 1, relerr: 2.32896e-15, relres: 2.32896e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 3500, r: 50, noise: 0, t: 0.0671979, iter: 15, relerr: 0.805831, relres: 9.02226e-06, reschg: 0.507894
+CGIHT_Matrix m: 100, n: 100, p: 3500, r: 50, noise: 0, t: 0.049055, iter: 15, relerr: 0.807093, relres: 6.34911e-06, reschg: 0.520649
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0021589, iter: 1, relerr: 2.61549e-15, relres: 2.61549e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0020224, iter: 1, relerr: 2.371e-15, relres: 2.371e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0021574, iter: 1, relerr: 2.21657e-15, relres: 2.21657e-15, reschg: 1
+CGIHT_Matrix m: 100, n: 100, p: 500, r: 50, noise: 0, t: 0.121079, iter: 21, relerr: 0.975441, relres: 9.77982e-06, reschg: 0.361938

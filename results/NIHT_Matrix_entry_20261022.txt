@@ -1,0 +1,2 @@
+NIHT_Matrix m: 100, n: 100, p: 2000, r: 50, noise: 0, t: 2.00268, iter: 18, relerr: 0.89933, relres: 7.32786e-06, reschg: 0.413142
+NIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.10579, iter: 5001, relerr: 1, relres: NaN, reschg: NaN

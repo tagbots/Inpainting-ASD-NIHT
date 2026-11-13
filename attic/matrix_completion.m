@@ -40,7 +40,7 @@ R = randn(r,n);
 M = L * R;
 noise = randn(p,1);
 noise = epsilon*norm(M(Omega))*noise/norm(noise);
-data = M(Omega)+noise;
+data = M(Omega)+noise; 
 
 % default_opts is located in Auxiliary folder
 % modify it to use different options.

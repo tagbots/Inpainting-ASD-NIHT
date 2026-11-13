@@ -1,0 +1,2 @@
+ASD m: 100, n: 100, p: 1000, r: 50, noise: 0, t: 0.0250105, iter: 25, relerr: 0.957925, relres: 7.69226e-06, reschg: 0.309115
+ASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0022115, iter: 1, relerr: 2.5816e-15, relres: 2.58298e-15, reschg: 1

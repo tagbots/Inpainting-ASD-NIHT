@@ -1,6 +1,7 @@
-function [Mout, M, A] = Random_noise_051226(alg_name, img, snr) %= random_inpaint(alg_name, img, snr) prior file
+function [Mout, M, M_noisy, noisy_psnr] = matrix_noise_v1(alg_name, img, snr, delta) %= random_inpaint(alg_name, img, snr) prior file
 
 X = imread(img);
+X = im2gray(X); %because i was lazy and downloaded images in color
 X=double(X)/255;
 r = 50;
 [U, S, V] = svds(X,r);
@@ -10,27 +11,45 @@ clear X;
 M = U*S*V';
 
 [m, n] = size(M);
-delta = .5; %for denoising problem we want all pixels
+
 p = round(delta*m*n);
 
-A = zeros(m*n,1);                       %commented out in prior
-A(1:p) = ones(p,1);                     %commented out in prior
-[~,ind] = sort(randn(m*n,1));           %commented out in prior
-A = A(ind);                             %commented out in prior
-A = reshape(A,m,n);                     %commented out in prior
-[I, J] = find(A);                       %commented out in prior
-Omega = sub2ind([m n], I, J);           %commented out in prior
-%data=M(Omega); %removed on prior file
+if delta == 1
+    Omega=(1:m*n)';
+else
+    A = zeros(m*n,1);
+    A(1:p) = ones(p,1);
+    [~,ind] = sort(randn(m*n,1));
+    A = A(ind);
+    A = reshape(A,m,n);
+    
+    [I, J] = find(A);
+    Omega = sub2ind([m n], I, J);
+end
 
+%p = round(delta*m*n);
+%Omega = randperm(m*n, p)';
 
-signal_power = var(M(:));                         % Added on prior file
-noise_power = signal_power / (10^(snr/10));    % Added on prior file
-sigma_noise = sqrt(noise_power);                  % Added on prior file
+signal_obs = M(Omega);
 
-%rng(1)
-noise = sigma_noise * randn(size(M));             % Added on prior file
-M_noisy = M + noise;                              % Added on prior file
-data = M_noisy(Omega);                                   % Added on prior file
+% Noise model
+%noise_opts.type = 'white';
+
+% Generate white Gaussian noise over the full image
+noise_full = randn(size(M));
+
+% Restrict noise to observed entries
+noise_obs = noise_full(Omega);
+
+% Enforce desired realized SNR
+noise_obs = noise_obs * norm(signal_obs) / (10^(snr/20)*norm(noise_obs));
+
+data = signal_obs + noise_obs;
+
+M_noisy = zeros(size(M));
+M_noisy(Omega) = data;
+
+noisy_psnr = psnr(M_noisy, M, 1);
 
 %figure(1)                                   %commented out in prior
 %imshow(A.*M)                                %commented out in prior

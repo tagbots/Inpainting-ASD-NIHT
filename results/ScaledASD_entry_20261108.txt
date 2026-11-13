@@ -1,0 +1,17 @@
+ScaledASD m: 100, n: 100, p: 0, r: 50, noise: 0, t: 0.0442388, iter: 2, relerr: NaN, relres: NaN, reschg: NaN
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0031405, iter: 1, relerr: 2.57943e-15, relres: 2.57863e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0024693, iter: 1, relerr: 1.93605e-15, relres: 1.93588e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.003834, iter: 1, relerr: 2.13309e-15, relres: 2.13396e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0084321, iter: 1, relerr: 2.44844e-15, relres: 2.44935e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0022655, iter: 1, relerr: 2.12157e-15, relres: 2.12378e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0014562, iter: 1, relerr: 2.23286e-15, relres: 2.237e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0029122, iter: 1, relerr: 2.74584e-15, relres: 2.74423e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0019291, iter: 1, relerr: 2.01065e-15, relres: 2.01284e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0037761, iter: 1, relerr: 2.38451e-15, relres: 2.38134e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0022143, iter: 1, relerr: 2.41548e-15, relres: 2.41872e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 3500, r: 50, noise: 0, t: 0.028209, iter: 19, relerr: 0.806978, relres: 6.7068e-06, reschg: 0.399171
+ScaledASD m: 100, n: 100, p: 3500, r: 50, noise: 0, t: 0.02016, iter: 20, relerr: 0.802266, relres: 6.70747e-06, reschg: 0.378958
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.001466, iter: 1, relerr: 1.97263e-15, relres: 1.97077e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.001812, iter: 1, relerr: 2.33229e-15, relres: 2.33416e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 10000, r: 50, noise: 0, t: 0.0013846, iter: 1, relerr: 2.28364e-15, relres: 2.28602e-15, reschg: 1
+ScaledASD m: 100, n: 100, p: 500, r: 50, noise: 0, t: 0.0618447, iter: 19, relerr: 0.977881, relres: 9.98714e-06, reschg: 0.372143

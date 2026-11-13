@@ -1,0 +1,2 @@
+CGIHT_Matrix m: 100, n: 100, p: 2000, r: 50, noise: 0, t: 0.0814899, iter: 16, relerr: 0.90249, relres: 8.64179e-06, reschg: 0.481695
+CGIHT_Matrix m: 100, n: 100, p: 0, r: 50, noise: 0, t: 7.0663, iter: 5001, relerr: 1, relres: NaN, reschg: NaN
