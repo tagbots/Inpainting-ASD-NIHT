@@ -46,6 +46,7 @@ Contains the demonstration script and MATLAB implementations of the four algorit
 This folder contains eleven test images obtained from
 ```markdown
 [USC-SIPI Image Database](https://sipi.usc.edu/database/).
+```
 
 ## `Usage`
 
