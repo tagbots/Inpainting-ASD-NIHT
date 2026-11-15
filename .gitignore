@@ -1,0 +1,13 @@
+attic/
+Attic/
+
+*.asv
+*.m~
+matlab_crash_dump.*
+
+results/
+output/
+*.log
+
+.DS_Store
+Thumbs.db

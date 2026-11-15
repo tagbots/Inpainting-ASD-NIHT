@@ -13,28 +13,28 @@ delta_percent=100*delta;
 
 fprintf('problem size: m = %d, n = %d, p = %d, r = %d\n\n', m, n, p, r)
 
-% --------- NIHT_Matrix ---------
-fprintf('NIHT starts ...\n')
-matrix_completion('NIHT_Matrix', m, n, p, r)
-fprintf('NIHT over ...\n\n')
-
-% ---------- CGIHT_Matrix -------
-fprintf('CGIHT starts ...\n')
-matrix_completion('CGIHT_Matrix', m, n, p, r)
-fprintf('CGIHT over ...\n\n')
-
-% ----------- ASD --------------
-fprintf('ASD starts ...\n')
-matrix_completion('ASD', m, n, p, r)
-fprintf('ASD over ...\n\n')
-
-% -------- ScaledASD ------------
-fprintf('ScaledASD starts ...\n')
-matrix_completion('ScaledASD', m, n, p, r)
-fprintf('ScaledASD over ...\n\n')
-
-% ========= image inpainting ======
-fprintf('--- random/cross inpainting ---\n')
+% % --------- NIHT_Matrix ---------
+% fprintf('NIHT starts ...\n')
+% matrix_completion('NIHT_Matrix', m, n, p, r)
+% fprintf('NIHT over ...\n\n')
+% 
+% % ---------- CGIHT_Matrix -------
+% fprintf('CGIHT starts ...\n')
+% matrix_completion('CGIHT_Matrix', m, n, p, r)
+% fprintf('CGIHT over ...\n\n')
+% 
+% % ----------- ASD --------------
+% fprintf('ASD starts ...\n')
+% matrix_completion('ASD', m, n, p, r)
+% fprintf('ASD over ...\n\n')
+% 
+% % -------- ScaledASD ------------
+% fprintf('ScaledASD starts ...\n')
+% matrix_completion('ScaledASD', m, n, p, r)
+% fprintf('ScaledASD over ...\n\n')
+% 
+% % ========= image inpainting ======
+% fprintf('--- random/cross inpainting ---\n')
 
 alg_list = cell(4,1);
 alg_list{1} = 'NIHT_Matrix';
@@ -67,23 +67,16 @@ snr = input('Enter desired SNR in dB (example: 5, 10, 20, 30): ');
 
 fprintf('\n')
 
-image_results = cell(4, 1);
-
-for k=1:4
-    rng(1)
-    [image_results{k}, M, M_noisy, noisy_psnr] = matrix_noise_v1(alg_list{k},img_list{img}, snr, delta);
-end
+[image_results, M, inpaintOut, inpaint_psnr] = matrix_noise_v2(alg_list, img_list{img}, snr, delta);
 
 figure;
 subplot(2, 3, 1)
 imshow(M, [])
 title('Original')
 
-%noisy_psnr = psnr(M_noisy(Omega), M, 1);
-
 subplot(2, 3, 2)
-imshow(M_noisy, [])
-title({['Noisy, SNR= ', num2str(snr), ' dB'], ['PSNR = ', num2str(noisy_psnr, '%.2f'), ' dB']})
+imshow(inpaintOut, [])
+title({['Noisy, SNR= ', num2str(snr), ' dB'], ['PSNR = ', num2str(inpaint_psnr, '%.2f'), ' dB']})
 
 for k=1:4
     recovered_psnr = psnr(image_results{k}, M);
