@@ -62,7 +62,7 @@ matrix_completion('alg_name', m, n, p, r, epsilon)
 
 it will run CGIHT_Matrix for a random problem with m = 1000, n = 1000 (matrix size), p = 100000 (number of sampled entries), r = 20 (matrix rank) and epsilon = 0 (noise free), and write the output into a file. The alg_name are those algorithm names in Main file.
 
-#### Image Inpainting
+### Image Inpainting
 
 Use the following function:
 
