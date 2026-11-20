@@ -31,9 +31,9 @@ M = U*S*V';
 
 [m, n] = size(M);
 
-% ======== initialize independent random number streams
+% 1) rng(1) enables a reproducible experiment, so you can see whether the
+% car works...
 
-[sOmega, sNoise] = RandStream.create('mrg32k3a', 'NumStreams', 2);
 
 % ======== generate the observation space Omega
 
@@ -65,9 +65,7 @@ NN = NN(Omega);
 % ======== image inpainting
 
 noiseLevel = norm(data) / (10^(snr/20)*norm(NN));
-NN = NN*noiseLevel;
-
-data = data + NN;
+data = data + noiseLevel*NN;
 
 % ======== visualize and calculate PSNR of inpainted image
 
